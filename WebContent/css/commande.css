@@ -1,0 +1,164 @@
+.hiddenStepInfo {
+    display: none;
+}
+
+.activeStepInfo {
+    display: block !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.step {
+    margin-top: 27px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+    
+}
+
+.step {
+    text-align: center;
+}
+
+.step .col-md-2 {
+    background-color: #fff;
+    border: 1px solid #C0C0C0;
+    border-right: none;
+    width:25%;
+}
+
+.step .col-md-2:last-child {
+    border: 1px solid #C0C0C0;
+}
+
+.step .col-md-2:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.step .col-md-2:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.step .col-md-2:hover {
+    color: #F58723;
+    cursor: pointer;
+}
+
+.step .activestep {
+    color: #FF0000;
+    height: 100px;
+    margin-top: -7px;
+    padding-top: 7px;
+    border-left: 6px solid #5CB85C !important;
+    border-right: 6px solid #5CB85C !important;
+    border-top: 3px solid #5CB85C !important;
+    border-bottom: 3px solid #5CB85C !important;
+    vertical-align: central;
+}
+
+.step .fa {
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+#steps
+{
+float:center;
+}
+
+.progress-bar
+{
+background-color: #F83F31;
+}
+
+
+
+.funkyradio div {
+    clear: both;
+    text-align:center;
+}
+
+.myradio label {
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4
+}
+
+input[type="radio"]:empty {
+    display:none;
+}
+
+input[type="radio"]:empty ~ label {
+    position: relative;
+    float: center;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="radio"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    float:center;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+
+input[type="radio"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+input[type="radio"]:hover:not(:checked) ~ label {
+   color: #888;
+}
+
+input[type="radio"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #9CE2AE;
+    background-color: #4DCB6D;
+}
+
+input[type="radio"]:checked ~ label {
+    color: #777;
+}
+
+input[type="radio"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+
+
+
